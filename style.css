@@ -1,0 +1,62 @@
+.left {
+	display: block;
+	position: fixed;
+	height: 35px;
+	width: 40px;
+	background-color: #2cc0d6;
+	text-align: center;
+	font-size: 24px;
+	left: 0px;
+	top: 45%;
+	vertical-align: 50%;
+	padding-top: 10px;
+	z-index: 1000;
+}
+
+.right {
+	display: block;
+	position: fixed;
+	height: 35px;
+	width: 40px;
+	background-color: #2cc0d6;
+	text-align: center;
+	font-size: 24px;
+	right: 0px;
+	top: 45%;
+	vertical-align: 50%;
+	padding-top: 10px;
+	z-index: 999;
+}
+
+.left a {
+	color: #FFF;
+	text-decoration: none;
+	vertical-align: middle;
+	text-align: center;
+	display: block;
+	padding-left: 5px;
+	-webkit-transition: all .5s linear;
+	-moz-transition: all .5s linear;
+	-ms-transition: all .5s linear;
+	-o-transition: all .5s linear;
+	transition: all .5s linear;
+}
+
+.right a {
+	color: #FFF;
+	text-decoration: none;
+	vertical-align: middle;
+	text-align: center;
+	display: block;
+	padding-right: 5px;
+	-webkit-transition: all .5s linear;
+	-moz-transition: all .5s linear;
+	-ms-transition: all .5s linear;
+	-o-transition: all .5s linear;
+	transition: all .5s linear;
+}
+
+.left a:hover, .right a:hover {
+	color: #333;
+	text-shadow: 0px 1px 1px #FFF;
+}
