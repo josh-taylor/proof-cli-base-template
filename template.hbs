@@ -24,11 +24,15 @@ body {
 </head>
 <body>
   <section class="body"></section>
+  {{#if prev-url}}
   <section class="left">
     <a href="{{prev-url}}"><i class="fa fa-chevron-left"></i></a>
   </section>	
+  {{/if}}
+  {{#if next-url}}
   <section class="right">
     <a href="{{next-url}}"><i class="fa fa-chevron-right"></i></a>
   </section> 
+  {{/if}}
 </body>
 </html>
